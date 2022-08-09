@@ -8,4 +8,11 @@ const app = new App({
 	}
 });
 
+const Web3 = require('web3');
+const url = "https://rpc.ankr.com/eth";
+
+provider.eth.getBlockNumber().then((result) => {
+	console.log("Current block number: " + result);
+});
+
 export default app;
