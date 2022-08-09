@@ -5,9 +5,7 @@
 
 <Router>
 	<header>
-		<h1>
-			On-Chain Degrees
-		</h1>
+
 	</header>
 
 	<main>
