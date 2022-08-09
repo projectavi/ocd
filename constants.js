@@ -1,0 +1,2 @@
+export const imageURI = "https://gateway.pinata.cloud/ipfs/QmRG4WEaGBf7Fw1aBWyzxv8NfgUMwSWi41sg4KxYwmL1m9"
+export const metadataURI = "https://gateway.pinata.cloud/ipfs/QmcWGQnwrLkJbsgT4vuUYEBMGnvi4VsoLudmCFGTxQnTZA"

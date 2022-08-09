@@ -1,0 +1,23 @@
+{
+    "attributes": [
+        {
+            "trait_type": "NFT",
+            "value": "Soulbound"
+        },
+        {
+            "trait_type": "Asset",
+            "value": "Non-transferable Degree"
+        },
+        {
+            "trait_type": "Name",
+            "value": "Khalid Hamid"
+        },
+        {
+            "trait_type": "Course",
+            "value": "Computer Science"
+        }
+    ],
+    "description": "This is a demo soulbound token mint",
+    "image": "https://gateway.pinata.cloud/ipfs/QmRG4WEaGBf7Fw1aBWyzxv8NfgUMwSWi41sg4KxYwmL1m9",
+    "name": "YorkU Degree"
+}
