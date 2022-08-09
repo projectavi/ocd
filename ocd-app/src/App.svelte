@@ -1,5 +1,6 @@
 <script>
 	import { Router, Route, Link } from "svelte-navigator";
+	import Launch from "./Launch.svelte";
 </script>
 
 <Router>
@@ -10,6 +11,9 @@
 	</header>
 
 	<main>
+
+		<Launch />
+
 		<Route path="launch">
 			<Launch />
 		</Route>
