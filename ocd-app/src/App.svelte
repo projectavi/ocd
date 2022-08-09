@@ -1,18 +1,19 @@
 <script>
 	import { Router, Route, Link } from "svelte-navigator";
 	import Launch from "./Launch.svelte";
+	import Verify from "./Verify.svelte";
 </script>
 
 <Router>
 	<header>
-		<h1>
+		<!-- <h1>
 			On-Chain Degrees
-		</h1>
+		</h1> -->
 	</header>
 
 	<main>
 
-		<Launch />
+		<Verify />
 
 		<Route path="launch">
 			<Launch />
