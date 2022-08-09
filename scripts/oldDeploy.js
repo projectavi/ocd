@@ -14,7 +14,7 @@ async function main() {
     const degree = await Degree.deploy("YorkUbusiness", "YU")
     await degree.deployed()
     console.log("Degrees deployed to: " + degree.address)
-    export const degreeAddress = degree.address
+    export const degreeAddress = "0x674dC7365A204c9FE6484049de979CB0D52CFD02"
 
 
 
