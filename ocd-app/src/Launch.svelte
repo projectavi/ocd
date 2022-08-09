@@ -1,10 +1,20 @@
 <script>
     import { Router, Route, Link } from "svelte-navigator";
+    import { Modals, closeModal, openModal, modals } from 'svelte-modals';
+    import { fade } from 'svelte/transition';
     import { Button, Dropdown, DropdownItem, DropdownMenu, DropdownToggle } from 'sveltestrap';
+    import Popup from "./Popup.svelte";
+
+    function handleOpen() {
+		openModal(Popup, { 
+			title: `Sign In`, 
+			message: "This is an alert",
+		})
+	}
 </script>
     
     <div id="signinButton">
-        <Button size="lg">Sign In</Button>
+        <Button size="lg" on:click={handleOpen}>Sign In</Button>
     </div>
 
     <div id="center" class="row-align">
@@ -31,6 +41,15 @@
             </DropdownMenu>
         </Dropdown>
     </div>
+
+    <Modals>
+        <div
+          slot="backdrop"
+          class="backdrop"
+              transition:fade
+          on:click={closeModal}
+        />
+      </Modals>
 
 <style>
 
@@ -72,4 +91,13 @@
         flex-direction: row;
         align-items: center;
     }
+
+    .backdrop {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0,0,0,0.50)
+  }
 </style>

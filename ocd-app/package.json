@@ -20,6 +20,7 @@
   "dependencies": {
     "bootstrap": "^5.2.0",
     "sirv-cli": "^2.0.0",
+    "svelte-modals": "^1.1.0",
     "svelte-navigator": "^3.1.6",
     "sveltestrap": "^5.9.0"
   }
