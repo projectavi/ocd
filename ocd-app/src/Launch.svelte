@@ -14,6 +14,7 @@
 </script>
     
     <div id="signinButton">
+        <Button size="lg" >Deploy</Button>
         <Button size="lg" on:click={handleOpen}>Sign In</Button>
     </div>
 
